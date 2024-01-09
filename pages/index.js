@@ -69,7 +69,7 @@ const ProductsFullWidth = ({ products, productFilters, fetchProduct }) => {
                             <div className="col-lg-12">
                                 <div className="row product-grid-3">
                                     {getPaginatedProducts.length === 0 && (
-                                        <h3>No Products Found </h3>
+                                        <h3>کالایی موجود نیست</h3>
                                     )}
 
                                     {getPaginatedProducts.map((item, i) => (

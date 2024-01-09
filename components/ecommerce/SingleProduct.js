@@ -122,7 +122,7 @@ const SingleProduct = ({
 
                     <div>
                         <span className="font-small text-muted">
-                            تامین کننده <Link href="/vendor/1"><a>دانشگاه باهنر</a></Link>
+                            تامین کننده <Link href="/vendor/1"><a>{product.vendorTitle}</a></Link>
                         </span>
                     </div>
 
