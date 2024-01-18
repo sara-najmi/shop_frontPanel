@@ -22,7 +22,6 @@ const Cart = ({
     clearCart,
 }) => {
 
-
     if(!localStorage.getItem("token")){
         window.location.href = "/page-login"
     }
@@ -30,7 +29,6 @@ const Cart = ({
     const price = () => {
         let price = 0;
         cartItems.forEach((item) => (price += item.price * item.quantity));
-
         return price;
     };
 
@@ -138,7 +136,7 @@ const Cart = ({
                                                         data-title="Price"
                                                     >
                                                         <h4 className="text-brand">
-                                                            ${item.price}
+                                                            {item.price}
                                                         </h4>
                                                     </td>
                                                     <td

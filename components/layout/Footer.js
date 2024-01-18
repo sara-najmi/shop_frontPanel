@@ -16,8 +16,8 @@ const Footer = () => {
                         </div>
                         <div className="col-xl-4 col-lg-6 col-md-6">
                             <p className="font-sm mb-0">
-                                &copy; 2023,{" "}
-                                <strong className="text-brand">sara najmi</strong>
+                                &copy; 2024,{" "}
+                                <strong className="text-brand">sara najmi & mahla soltani</strong>
                             </p>
                         </div>
                         <div className="col-xl-4 col-lg-6 text-center d-none d-xl-block">
@@ -33,7 +33,7 @@ const Footer = () => {
                         </div>
                         <div className="col-xl-4 col-lg-6 col-md-6 text-end d-none d-md-block">
                             <p className="font-sm mb-0">
-                                <strong className="text-brand">All rights reserved</strong>
+                                {/* <strong className="text-brand">All rights reserved</strong> */}
                             </p>
                         </div>
                     </div>

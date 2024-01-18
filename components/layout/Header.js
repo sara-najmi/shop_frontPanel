@@ -27,13 +27,13 @@ const Header = ({
         <>
             <header className="header-area header-style-1 header-height-2">
 
-                <div className="header-middle header-middle-ptb-1 d-none d-lg-block">
+                <div className="header-middle header-middle-ptb-1 d-none d-lg-block ">
                     <div className="container">
                         <div className="header-wrap">
                             <div className="logo logo-width-1">
                                 <Link href="/">
                                     <a>
-                                        <img src="/assets/imgs/theme/logo.svg" alt="logo" />
+                                        <img src="\assets\imgs\page\bahonar.svg" alt="logo" />
                                     </a>
                                 </Link>
                             </div>
@@ -43,8 +43,8 @@ const Header = ({
                                 </div>
                                 <div className="header-action-right">
                                     <div className="header-action-2">
-                                        <div className="search-location">
-                                        </div>
+                                        {/* <div className="search-location">
+                                        </div> */}
                                         <div className="header-action-icon-2">
                                             <Link href="/shop-cart">
                                                 <a className="mini-cart-icon">
@@ -80,19 +80,19 @@ const Header = ({
                                                             </a>
                                                         </Link>
                                                     </li>
-                                                    <li>
+                                                    {/* <li>
                                                         <Link href="/page-account">
                                                             <a>
                                                                 <i className="fi fi-rs-location-alt mr-10"></i>
                                                                 Order Tracking
                                                             </a>
                                                         </Link>
-                                                    </li>
+                                                    </li> */}
                                                     <li>
                                                         <Link href="/page-login">
                                                             <a>
                                                                 <i className="fi fi-rs-sign-out mr-10"></i>
-                                                                Sign out
+                                                                خروج
                                                             </a>
                                                         </Link>
                                                     </li>
